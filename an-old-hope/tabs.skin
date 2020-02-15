@@ -1,0 +1,44 @@
+# Note: all paths are relative to top level skin directory
+
+[Description]
+Skin=An Old Hope
+Author=Mohsin Kaleem
+Email=mohkalsin@gmail.com
+Icon=/icon.ico
+Web=
+
+[Tabs]
+# Styles the section containing session tabs
+x=20
+y=0
+# RGB is text color
+red=203
+green=205
+blue=210
+# Following are all basically background images
+# specifically for tabs. Non tab sections use
+# [Background] instead.
+seperator_image=/imgs/tabs/back.png
+# selected means active session
+selected_background=/imgs/tabs/selected_back.png
+selected_left_corner=/imgs/tabs/selected_buffer.png
+selected_right_corner=/imgs/tabs/selected_buffer.png
+unselected_background=/imgs/tabs/back.png
+
+[Background]
+# for non tab sections
+back_image=/imgs/tabs/back.png
+
+[PlusButton]
+x=2
+y=2
+up_image=/imgs/buttons/plus.png
+over_image=/imgs/buttons/plus_bordered.png
+down_image=/imgs/buttons/plus_boxed.png
+
+[MinusButton]
+x=18
+y=2
+up_image=/imgs/buttons/minus.png
+over_image=/imgs/buttons/minus_bordered.png
+down_image=/imgs/buttons/minus_boxed.png

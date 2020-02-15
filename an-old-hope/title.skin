@@ -1,0 +1,55 @@
+# Note: all paths are relative to top level skin directory
+
+[Description]
+Skin=An Old Hope
+Author=Mohsin Kaleem
+Email=mohkalsin@gmail.com
+Icon=/icon.ico
+Web=
+
+[Border]
+# Far Left & Far Right Shell+Tabs Borders
+red=17
+green=17
+blue=19
+width=1
+
+[Text]
+# Bottom Left Program Text
+x=7
+y=16
+red=203
+green=205
+blue=210
+text=Yakuake-AOH
+
+[Background]
+back_image=/imgs/title/back.png
+left_corner=/imgs/title/back.png
+right_corner=/imgs/title/back.png
+
+# Note: Up Image for Buttons -> Image When Active
+
+[QuitButton]
+# Button Used to Force Yakuake to Close
+x=20
+y=4
+up_image=/imgs/buttons/quit.png
+over_image=/imgs/buttons/quit_bordered.png
+down_image=/imgs/buttons/quit_boxed.png
+
+[ConfigButton]
+# Button Displays Context Menu from which Yakuake can be Customised
+x=38
+y=4
+up_image=/imgs/buttons/menu.png
+over_image=/imgs/buttons/menu_bordered.png
+down_image=/imgs/buttons/menu_boxed.png
+
+[FocusButton]
+# Button Indicates Whether Yakuake Minimises When Losing Focus
+x=56
+y=4
+up_image=/imgs/buttons/focus.png
+over_image=/imgs/buttons/focus_bordered.png
+down_image=/imgs/buttons/focus_boxed.png
