@@ -12,3 +12,6 @@ emulator.
 4. select "Configure Yakuake"
 5. goto appearence
 6. choose 'An Old Hope'
+
+## Screenshots
+![yakuake](./yakuake.png)
